@@ -42,14 +42,6 @@ func NoPermission(path string) bool {
 		return true
 	}
 
-	// filename := path.Join(p, "tmp")
-
-	// defer os.Remove(filename)
-
-	// if err = ioutil.WriteFile(filename, []byte{}, 0777); err != nil {
-	// 	return true
-	// }
-
 	return false
 }
 
