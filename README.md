@@ -11,6 +11,7 @@ status of files or folders.
 
 The name is reduction of "file check".
 
+## Example ##
 
 ``` go
 // NotEmpty returns true if the target is an non-empty directory.
