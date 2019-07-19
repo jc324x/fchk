@@ -1,6 +1,6 @@
 # fchk # 
 
-`fchk` is a small utility package, used in a few of my projects: 
+`fchk` is a small package, used in a few of my open source projects: 
 
 - [git-in-sync](https://github.com/jychri/git-in-sync): Keep all of
   your git repos in sync across multiple computers
@@ -9,7 +9,7 @@
 Functions in package `fchk` return `bool` values, indicating the
 status of files or folders.
 
-The name is reduction of "file check".
+The name is a reduction of "file check".
 
 ``` go
 // NotEmpty returns true if the target is an non-empty directory.
